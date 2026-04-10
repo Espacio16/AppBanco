@@ -42,7 +42,7 @@ public class cliente {
         this.fechaNacimiento = fechaNacimiento;
     }
 
-    @Override
+        @Override
     public String toString() {
         return "cliente <| dni = " + dni + ", nombre = " + nombre + " " + ", fecha = " + fechaNacimiento + " ";
     }

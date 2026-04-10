@@ -60,4 +60,10 @@ public class cuenta {
         this.localidad = localidad;
     }
 
+    @Override
+    public String toString() {
+        return "cuenta [dni=" + dni + ", nombre=" + nombre + ", apellidos=" + apellidos + ", fechaDeNacimiento="
+                + fechaDeNacimiento + ", localidad=" + localidad + "]";
+    }
+
 }

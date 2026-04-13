@@ -46,5 +46,4 @@ public class cliente {
     public String toString() {
         return "cliente <| dni = " + dni + ", nombre = " + nombre + " " + ", fecha = " + fechaNacimiento + " ";
     }
-    //hola
 }

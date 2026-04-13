@@ -20,6 +20,7 @@ public class cuenta {
         this.localidad = localidad;
     }
 
+    //getters
     public String getDni() {
         return dni;
     }
@@ -40,6 +41,7 @@ public class cuenta {
         return apellidos;
     }
 
+    //setters
     public void setApellidos(String apellidos) {
         this.apellidos = apellidos;
     }
@@ -58,6 +60,13 @@ public class cuenta {
 
     public void setLocalidad(String localidad) {
         this.localidad = localidad;
+    }
+
+    //Metodos
+    public void ingreso (double cantidad) {
+        if (cantidad<0) {
+            System.out.println("Error: la cantidad no puede ser negativa");
+        }
     }
 
     @Override

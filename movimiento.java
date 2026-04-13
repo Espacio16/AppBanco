@@ -1,16 +1,16 @@
 import java.util.Date;
 class Movimiento
 {
-    Date fecha;
-    char tipo;
-    float importe;
-    float saldo;
+    private Date fecha;
+    private char tipo;
+    private float importe;
+    private float saldo;
     
     public Movimiento (Date aFecha, char aTipo, float aImporte, float
     aSaldo) {
         fecha = aFecha;
-        tipo = a Tipo;
-        importe = a Importe;
-        saldo = a Saldo;
+        tipo = aTipo;
+        importe = aImporte;
+        saldo = aSaldo;
     }
 }
